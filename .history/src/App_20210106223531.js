@@ -1,5 +1,5 @@
 import './App.css';
-import HeaderWrapper from "./components/HeaderWrapper/HeaderWrapper";
+import { HeaderWrapper } from "./components/HeaderWrapper/HeaderWrapper";
 
 function App() {
   return (
