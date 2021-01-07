@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./HeaderWrapper.module.scss";
-import StandardButton from "../button/StandardButton";
+import HeaderWrapperButton from "./HeaderWrapperButton";
 import ArticleWrapper from './ArticleWrapper/ArticleWrapper'
 
 
@@ -14,9 +14,9 @@ class HeaderWrapper extends React.Component {
             <>
                 <section className={ styles.wrapper }>
                     <h1 className={styles.wrapper}> HeaderWrapper </h1>
-                    <StandardButton> Popular </StandardButton>
-                    <StandardButton> Suggested </StandardButton>
-                    <StandardButton> Extreme </StandardButton>
+                    <HeaderWrapperButton> Popular </HeaderWrapperButton>
+                    <HeaderWrapperButton> Suggested </HeaderWrapperButton>
+                    <HeaderWrapperButton> Extreme </HeaderWrapperButton>
                     <h1 className= { styles.wrapper} > headerWrapperBottom</h1>
                     <ArticleWrapper />
                 </section>
