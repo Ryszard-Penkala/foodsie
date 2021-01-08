@@ -5,6 +5,7 @@ import Image from '../../Image/Image';
 const ArticleWrapper = () => {
     return (
         <section className = { styles.ArticleWrapper }>
+            <h1>articlewrapper</h1>
             <Image />
         </section>
 

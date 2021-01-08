@@ -5,15 +5,14 @@ import ArticleWrapper from './ArticleWrapper/ArticleWrapper';
 import AppContext from '../../context'
 
 
-
 class HeaderWrapper extends React.Component {
     state = {
-        imageLink : '../../assets/images/yogaII.jpg'
+        imageLink : '../../assets/images/yoga II.jpg'
     }
 
     render(){
         return (
-            <AppContext.Provider value={ this.state.imageLink }>
+            <AppContext.Provider value={ this.state }>
                 <section className={ styles.wrapper }>
                     <h1 className={styles.wrapper}> HeaderWrapper </h1>
                     <StandardButton> Popular </StandardButton>

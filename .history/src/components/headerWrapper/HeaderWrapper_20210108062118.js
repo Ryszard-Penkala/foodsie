@@ -1,19 +1,17 @@
 import React from 'react';
 import styles from "./HeaderWrapper.module.scss";
 import StandardButton from "../button/StandardButton";
-import ArticleWrapper from './ArticleWrapper/ArticleWrapper';
-import AppContext from '../../context'
-
+import ArticleWrapper from './ArticleWrapper/ArticleWrapper'
 
 
 class HeaderWrapper extends React.Component {
     state = {
-        imageLink : '../../assets/images/yogaII.jpg'
+        imageLink : '../../assets/images/yoga II.jpg'
     }
 
     render(){
         return (
-            <AppContext.Provider value={ this.state.imageLink }>
+            <>
                 <section className={ styles.wrapper }>
                     <h1 className={styles.wrapper}> HeaderWrapper </h1>
                     <StandardButton> Popular </StandardButton>
@@ -22,7 +20,7 @@ class HeaderWrapper extends React.Component {
                     <h1 className= { styles.wrapper} > headerWrapperBottom</h1>
                     <ArticleWrapper />
                 </section>
-            </AppContext.Provider>
+            </>
          )
     }
 }

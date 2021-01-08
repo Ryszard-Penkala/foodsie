@@ -1,11 +1,11 @@
 import styles from './ArticleWrapper.module.scss';
-import Image from '../../Image/Image';
+import {  } from "module";
 
 
 const ArticleWrapper = () => {
     return (
         <section className = { styles.ArticleWrapper }>
-            <Image />
+            <h1>articlewrapper</h1>
         </section>
 
      );

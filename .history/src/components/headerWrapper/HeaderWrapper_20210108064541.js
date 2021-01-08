@@ -5,7 +5,6 @@ import ArticleWrapper from './ArticleWrapper/ArticleWrapper';
 import AppContext from '../../context'
 
 
-
 class HeaderWrapper extends React.Component {
     state = {
         imageLink : '../../assets/images/yogaII.jpg'

@@ -22,6 +22,7 @@ class HeaderWrapper extends React.Component {
                     <h1 className= { styles.wrapper} > headerWrapperBottom</h1>
                     <ArticleWrapper />
                 </section>
+                { console.log(this.state.imageLink) }
             </AppContext.Provider>
          )
     }
