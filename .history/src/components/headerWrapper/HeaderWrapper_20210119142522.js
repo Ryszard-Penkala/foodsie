@@ -8,7 +8,7 @@ import ArticleWrapper from './ArticleWrapper/ArticleWrapper';
 
 class HeaderWrapper extends React.Component {
     state = {
-        imageLink : 'yogaII.jpg'
+        imageLink : './images/yogaII.jpg'
     }
 
     render(){

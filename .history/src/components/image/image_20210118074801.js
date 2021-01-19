@@ -1,19 +1,16 @@
 import React from 'react';
 import styles from './Image.module.scss';
 import AppContext from '../../context';
-
+import yogaimage from  '../../assets/images/yogaII.jpg'
 
 class Image extends React.Component{
     render(){
-        const articleImagePath = './images/'
-
         return(
         <AppContext.Consumer>
             { (context) => (
-                <>
-                    {console.log(context)}
-                    <img className={ styles.articleImage } src= { articleImagePath + context } alt={ context }/>
-                </>
+                {const jogaimage = context;
+                console.log(joagaimage);}
+                <img className={ styles.articleImage } src= { yogaimage }  alt="yoga"/>
             )}
 
         </AppContext.Consumer>
