@@ -10,9 +10,9 @@ const types = {
     }
 
 const mainImage = {
-    yoga: 'yoga.jpg',
-    yogaII: 'yogaII.jpg',
-    workouts: 'workouts.jpg'
+    yoga: 'yoga',
+    yogaII: 'yogaII',
+    workouts: 'workouts'
 }
 
 class MainContentWrapper extends React.Component {

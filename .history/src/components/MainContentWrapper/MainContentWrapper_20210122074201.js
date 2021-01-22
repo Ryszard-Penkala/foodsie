@@ -10,9 +10,9 @@ const types = {
     }
 
 const mainImage = {
-    yoga: 'yoga.jpg',
-    yogaII: 'yogaII.jpg',
-    workouts: 'workouts.jpg'
+    yoga: 'yoga',
+    yogaII: 'yogaII',
+    workouts: 'workouts'
 }
 
 class MainContentWrapper extends React.Component {
@@ -21,10 +21,9 @@ class MainContentWrapper extends React.Component {
         activeOption: types.Popular,
     }
 
-    handleRadioButtonClick = (type, mainImage) => {
+    handleRadioButtonClick = (type) => {
         this.setState({
             activeOption: type,
-            imageLink: mainImage,
         })
     }
 
@@ -42,7 +41,7 @@ class MainContentWrapper extends React.Component {
                                         id = {types.Popular}
                                         type = 'radio'
                                         checked = {this.state.activeOption === types.Popular}
-                                        onChange = {() => this.handleRadioButtonClick(types.Popular, mainImage.yogaII)}
+                                        onChange = {() => this.handleRadioButtonClick(types.Popular)}
                                     />
                                     <label htmlFor={types.Popular} className = { styles.radioButtonLabel }>Popular</label>
                                 </section>
@@ -52,7 +51,7 @@ class MainContentWrapper extends React.Component {
                                         id = {types.Sugessted}
                                         type = 'radio'
                                         checked = {this.state.activeOption === types.Sugessted}
-                                        onChange = {() => this.handleRadioButtonClick(types.Sugessted, mainImage.yoga)}
+                                        onChange = {() => this.handleRadioButtonClick(types.Sugessted)}
                                     />
                                     <label htmlFor={types.Sugessted} className = { styles.radioButtonLabel }>Sugessted</label>
                                 </section>
@@ -62,7 +61,7 @@ class MainContentWrapper extends React.Component {
                                         id = {types.Extreme}
                                         type = 'radio'
                                         checked = {this.state.activeOption === types.Extreme}
-                                        onChange = {() => this.handleRadioButtonClick(types.Extreme, mainImage.workouts)}
+                                        onChange = {() => this.handleRadioButtonClick(types.Extreme)}
                                     />
                                     <label htmlFor={types.Extreme} className = { styles.radioButtonLabel }>Extreme</label>
                                 </section>
