@@ -1,0 +1,20 @@
+.wrapper{
+    color: lightblue;
+    width: 60vw;
+    border: 1px solid red;
+}
+.radioButton{
+    display: none;
+    &:checked + label{
+        color: white;
+        background-color: #09D976;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        margin-right: 20px;
+        padding: 5px 5px;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 70px;
+    }
+}
