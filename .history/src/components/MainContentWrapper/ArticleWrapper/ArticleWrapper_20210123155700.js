@@ -1,6 +1,5 @@
 import styles from './ArticleWrapper.module.scss';
 import Image from '../../Image/Image';
-import ContentWrapper from '../ContentWrapper/ContentWrapper'
 
 
 const ArticleWrapper = () => {

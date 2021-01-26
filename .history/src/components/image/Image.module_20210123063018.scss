@@ -2,4 +2,6 @@
     width: 40vw;
     height: 50vh;
     border-radius: 10px;
+    position: relative;
+    animation: appear 1s ease-in-out;
 }

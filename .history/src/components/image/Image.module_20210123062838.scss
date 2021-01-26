@@ -1,0 +1,19 @@
+@keyframes appear {
+    0%{
+        opacity: 0;
+        right: 50px;
+
+    }
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+}
+
+.articleImage{
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+    position: relative;
+    animation: appear 1s ease-in-out;
+}
