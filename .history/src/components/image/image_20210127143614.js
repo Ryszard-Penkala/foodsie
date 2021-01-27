@@ -15,7 +15,7 @@ class Image extends React.Component{
             { (context) => (
                 <>
                     {console.log(context)}
-                    <img className={ styles.articleImage } src= { articleImagePath + context + fileExtension.jpg} alt={ context }/>
+                    <img className={ styles.articleImage } src= { articleImagePath + context +'.jpg'} alt={ context }/>
                 </>
             )}
 

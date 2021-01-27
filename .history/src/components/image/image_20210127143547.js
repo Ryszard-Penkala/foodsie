@@ -6,16 +6,14 @@ import AppContext from '../../context';
 class Image extends React.Component{
     render(){
         const articleImagePath = './images/'
-        const fileExtension = {
-            jpg :'.jpg',
-        }
+        const fileExtension = '.jpg'
 
         return(
         <AppContext.Consumer>
             { (context) => (
                 <>
                     {console.log(context)}
-                    <img className={ styles.articleImage } src= { articleImagePath + context + fileExtension.jpg} alt={ context }/>
+                    <img className={ styles.articleImage } src= { articleImagePath + context +'.jpg'} alt={ context }/>
                 </>
             )}
 

@@ -16,8 +16,8 @@ class ContentWrapper extends React.Component {
         <AppContext.Consumer>
             { (context) => (
                 <>
-                    {console.log(context)}
-                    <h1>{articleHeader[context]}</h1>
+                    {console.log( context)}
+                    <h1>{articleHeader.context}</h1>
                     <StandardButton>Start</StandardButton>
                 </>
             )}

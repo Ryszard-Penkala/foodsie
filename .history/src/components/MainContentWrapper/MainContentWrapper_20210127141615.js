@@ -17,7 +17,7 @@ const mainImage = {
 
 class MainContentWrapper extends React.Component {
     state = {
-        imageLink : 'yogaII',
+        imageLink : 'yogaII.jpg',
         activeOption: types.Popular,
     }
 
