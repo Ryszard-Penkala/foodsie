@@ -24,7 +24,7 @@ class ContentWrapper extends React.Component {
                 <>
                     <section>
                         <h2>{articleHeader[context]}</h2>
-                        <h3>{articleContent[context]}</h3>
+                        <h1>{articleContent[context]}</h1>
                         <StandardButton>Start</StandardButton>
                     </section>
                 </>

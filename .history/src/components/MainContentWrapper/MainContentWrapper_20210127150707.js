@@ -35,7 +35,7 @@ class MainContentWrapper extends React.Component {
                     <section className={ styles.wrapper }>
 
                         <section className={styles.wrapper}> MainContentWrapper </section>
-                            <nav className= { styles.navWrapper}>
+                            <section className= { styles.navWrapper}>
                                 <section>
                                     <input
                                         className = { styles.radioButton }
@@ -66,7 +66,7 @@ class MainContentWrapper extends React.Component {
                                     />
                                     <label htmlFor={types.Extreme} className = { styles.radioButtonLabel }>Extreme</label>
                                 </section>
-                            </nav>
+                            </section>
 
 
 
@@ -74,7 +74,7 @@ class MainContentWrapper extends React.Component {
                             <ArticleWrapper>
 
                             </ArticleWrapper>
-                        <section className= { styles.wrapper} > headerWrapperBottom</section>
+                        <h1 className= { styles.wrapper} > headerWrapperBottom</h1>
                     </section>
                 </AppContext.Provider>
              </>

@@ -12,9 +12,9 @@ class ContentWrapper extends React.Component {
 
         }
         const articleContent = {
-            yoga: 'A relaxing 30 minutes workout for begginers.',
-            yogaII: 'An intensive 45 minutes training.',
-            workouts: 'An extreme 60 minutes workout for advanced.',
+            yoga: '',
+            yogaII: '',
+            workouts: '',
 
         }
 
@@ -22,11 +22,9 @@ class ContentWrapper extends React.Component {
         <AppContext.Consumer>
             { (context) => (
                 <>
-                    <section>
-                        <h2>{articleHeader[context]}</h2>
-                        <h3>{articleContent[context]}</h3>
-                        <StandardButton>Start</StandardButton>
-                    </section>
+                    {console.log(context)}
+                    <h1>{articleHeader[context]}</h1>
+                    <StandardButton>Start</StandardButton>
                 </>
             )}
 
