@@ -1,9 +1,9 @@
 import styles from "./StandardButton.module.scss"
 
-const StandardButton = ({videoLink, children}) => {
+const StandardButton = ({children}) => {
 
     return (
-        <a href={videoLink} target="_blank" rel="noreferrer">
+        <a href=videoLink>
             <button className= { styles.standardButton } > {children} </button>
         </a>
      );
