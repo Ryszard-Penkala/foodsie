@@ -4,6 +4,7 @@
 }
 .navWrapper{
     width: 400px;
+    border: 1px solid #09D976;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,4 +27,5 @@
     width: 100px;
     text-align: center;
     cursor: pointer;
+    border: 1px solid #09D976
 }

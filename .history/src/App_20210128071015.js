@@ -5,11 +5,9 @@ import MainContentWrapper from './components/MainContentWrapper/MainContentWrapp
 function App() {
   return (
     <div className="App">
-      <div className="mainPart">
-        <h1 className="headerHeader">foodsie.</h1>
-        <MainContentWrapper />
-        <BottomContentWrapper />
-      </div>
+      <h1 className="headerHeader">foodsie.</h1>
+      <MainContentWrapper />
+      <BottomContentWrapper />
     </div>
   );
 }

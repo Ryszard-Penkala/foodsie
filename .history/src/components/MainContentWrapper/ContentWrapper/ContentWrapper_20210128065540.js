@@ -6,7 +6,7 @@ import AppContext from '../../../context'
 class ContentWrapper extends React.Component {
     render(){
         const articleHeader = {
-            yoga : 'Suggested training',
+            yoga : 'Suggested yoga',
             yogaII: 'Popular yoga',
             workouts: 'Extreme workouts',
 
