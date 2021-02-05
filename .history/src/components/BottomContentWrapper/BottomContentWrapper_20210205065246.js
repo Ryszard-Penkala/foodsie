@@ -3,13 +3,13 @@ import styles from './BottomContentWrapper.module.scss';
 
 
 const BottomContentWrapper = () => {
-
+    const cardName = {
+        foodRecipes : 'food recipes',
+    }
     return (
         <>
             <div className = { styles.bottomWrapper } >
-                <Card cardTitle = 'foodRecipes' />
-                <Card cardTitle = 'workouts' />
-                <Card cardTitle = 'library' />
+                <Card cardTitle = {cardName.foodRecipes} />
             </div>
         </>
     );

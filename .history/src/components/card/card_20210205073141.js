@@ -21,7 +21,7 @@ const Card = ({cardTitle}) => {
 
     return (
         <>
-            <img src={cardPic[cardTitle]} alt={cardName[cardTitle] + ' picture'}/>
+            <img src={cardPic[cardTitle]} alt=""/>
             <h3>{cardName[cardTitle]}</h3>
         </>
      );

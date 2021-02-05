@@ -5,24 +5,16 @@ import workPic from '../../assets/images/workouts.jpg'
 
 
 const Card = ({cardTitle}) => {
-
     const cardName = {
         foodRecipes : 'Food Recipes',
         workouts : 'Workouts',
         library : 'Library',
     }
 
-    const cardPic = {
-        foodRecipes : recPic,
-        workouts : workPic,
-        library : libPic,
-    }
-
 
     return (
         <>
-            <img src={cardPic[cardTitle]} alt={cardName[cardTitle] + ' picture'}/>
-            <h3>{cardName[cardTitle]}</h3>
+            <h3>{cardName.cardTitle}</h3>
         </>
      );
 }

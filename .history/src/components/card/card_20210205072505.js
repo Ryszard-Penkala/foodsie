@@ -12,17 +12,11 @@ const Card = ({cardTitle}) => {
         library : 'Library',
     }
 
-    const cardPic = {
-        foodRecipes : recPic,
-        workouts : workPic,
-        library : libPic,
-    }
-
 
     return (
         <>
-            <img src={cardPic[cardTitle]} alt={cardName[cardTitle] + ' picture'}/>
-            <h3>{cardName[cardTitle]}</h3>
+            {console.log(card.cardName.cardTitle)}
+            <h3>{cardName.cardTitle}</h3>
         </>
      );
 }
