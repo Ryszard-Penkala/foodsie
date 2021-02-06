@@ -1,0 +1,10 @@
+.userBlock{
+    background-color: lightgreen;
+    margin: 0.67rem;
+    display: flex;
+    flex-flow: row wrap;
+    .userName{
+        border: 1px solid red;
+        font-size: 1.2rem;
+    }
+}

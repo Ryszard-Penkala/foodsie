@@ -1,7 +1,6 @@
 import styles from './App.module.scss'
-import BottomContentWrapper from './components/Wrappers/BottomContentWrapper/BottomContentWrapper';
+import BottomContentWrapper from './components/BottomContentWrapper/BottomContentWrapper';
 import MainContentWrapper from './components/MainContentWrapper/MainContentWrapper';
-import SideWrapper from './components/Wrappers/SideWrapper/SideWrapper'
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <BottomContentWrapper />
       </div>
       <div className={styles.gradientPanel}></div>
-      <SideWrapper />
+      <div className={styles.sidePanel}></div>
     </div>
   );
 }

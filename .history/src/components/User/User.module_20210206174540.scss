@@ -1,0 +1,19 @@
+.userBlock{
+    background-color: lightgreen;
+    margin: 0.67rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    .userName{
+        display: block;
+        border: 1px solid red;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .userImage{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+}
