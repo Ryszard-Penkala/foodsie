@@ -22,8 +22,8 @@ const Card = ({cardTitle}) => {
     return (
         <div className={styles.card}>
             <img className={styles.cardImg} src={cardPic[cardTitle]} alt={cardName[cardTitle] + ' picture'}/>
-            <h3 className={styles.cardH3}>{cardName[cardTitle]}</h3>
-            <h4 className={styles.cardH4}>discover</h4>
+            <h3>{cardName[cardTitle]}</h3>
+            <h4 cardH4>discover</h4>
         </div>
      );
 }

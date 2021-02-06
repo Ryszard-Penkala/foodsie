@@ -1,0 +1,14 @@
+.card{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: chartreuse;
+
+    & img{
+        width: 250px;
+        height: 250px;
+    }
+}
