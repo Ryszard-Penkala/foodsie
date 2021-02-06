@@ -14,8 +14,8 @@ const Card = ({cardTitle}) => {
 
     const cardLink = {
         foodRecipes : 'https://www.bbcgoodfood.com/recipes/category/all-healthy',
-        workouts : 'https://www.healthline.com/health/fitness-exercise/10-best-exercises-everyday',
-        library : 'https://www.medicinenet.com/healthy_living/article.htm',
+        workouts : 'Workouts',
+        library : 'Library',
     }
 
     const cardPic = {
@@ -26,7 +26,7 @@ const Card = ({cardTitle}) => {
 
 
     return (
-        <a className={styles.cardLink} href={cardLink[cardTitle]} target="_blank" rel="noreferrer">
+        <a className={styles.cardLink} href="www.onet.pl">
             <div className={styles.card}>
             <img className={styles.cardImg} src={cardPic[cardTitle]} alt={cardName[cardTitle] + ' picture'}/>
             <h3 className={styles.cardH3}>{cardName[cardTitle]}</h3>

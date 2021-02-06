@@ -1,0 +1,18 @@
+.App{
+  margin: 0 0 0 10px;
+  display: flex;
+  .mainPart{
+    width: 60vw;
+    .headerHeader{
+      align-items: flex-start;
+    }
+  }
+  .gradientPanel{
+    width: 2.5vw;
+    background: rgb(18,190,204);
+    background: linear-gradient(0deg, rgba(18,190,204,1) 0%, rgba(9,217,118,1) 100%);
+  }
+}
+
+
+

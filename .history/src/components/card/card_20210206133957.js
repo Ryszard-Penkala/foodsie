@@ -14,8 +14,8 @@ const Card = ({cardTitle}) => {
 
     const cardLink = {
         foodRecipes : 'https://www.bbcgoodfood.com/recipes/category/all-healthy',
-        workouts : 'https://www.healthline.com/health/fitness-exercise/10-best-exercises-everyday',
-        library : 'https://www.medicinenet.com/healthy_living/article.htm',
+        workouts : 'Workouts',
+        library : 'Library',
     }
 
     const cardPic = {

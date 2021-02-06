@@ -5,8 +5,8 @@
 
 .card{
     margin: 10px 0;
-    width: 280px;
-    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
