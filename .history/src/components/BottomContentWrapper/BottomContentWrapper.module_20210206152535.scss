@@ -1,0 +1,17 @@
+@keyframes bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.bounce:hover{
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+}
+
+.bottomWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}

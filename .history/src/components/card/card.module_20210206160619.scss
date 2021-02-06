@@ -1,6 +1,6 @@
 @keyframes bounce{
     0%   { transform: translateY(0); }
-    50%  { transform: translateY(-15px); }
+    50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
 
@@ -12,7 +12,7 @@
 .cardLink{
     text-decoration: none;
     color: black;
-    animation-duration: 0.5s;
+    animation-duration: 0.7s;
 }
 
 .card{
