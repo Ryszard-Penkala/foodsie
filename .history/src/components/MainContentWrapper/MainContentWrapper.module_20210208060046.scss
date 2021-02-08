@@ -10,9 +10,8 @@
 }
 .radioButton{
     display: none;
-    &:hover + label{
+    &:hover{
         background-color: #09E3B9;
-        color: white;
     }
     &:checked + label{
         color: white;

@@ -12,7 +12,6 @@
     display: none;
     &:hover + label{
         background-color: #09E3B9;
-        color: white;
     }
     &:checked + label{
         color: white;

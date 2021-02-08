@@ -9,8 +9,7 @@ const SideWrapper = () => {
     return(
         <div className={styles.sideWrapper}>
             <User/>
-            <MotivationWrapper motivation = '90' />
-            <p>3 element</p>
+            <MotivationWrapper/>
         </div>
 
     );
