@@ -10,9 +10,6 @@ const ProgressElement = () => {
                 </div>
                 <p className={[styles.elementColor, styles.iconProgress].join(' ')}>85%</p>
             </div>
-            <div className= { styles.progressBar }>
-
-            </div>
         </div>
      );
 }

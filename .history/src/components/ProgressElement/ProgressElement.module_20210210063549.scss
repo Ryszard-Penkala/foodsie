@@ -1,16 +1,10 @@
-.progressHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .icon{
     display: flex;
     flex: row;
     align-items: center;
     justify-content: space-between;
-    width: 100px;
+    max-width: 100px;
+    border: 1px solid brown;
 }
 
 .elementColor{

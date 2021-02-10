@@ -10,7 +10,8 @@
     flex: row;
     align-items: center;
     justify-content: space-between;
-    width: 100px;
+    max-width: 100px;
+    border: 1px solid brown;
 }
 
 .elementColor{
@@ -19,4 +20,5 @@
 
 .iconProgress{
     display: inline-block;
+    border: 1px solid red;
 }
