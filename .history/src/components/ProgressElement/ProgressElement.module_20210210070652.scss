@@ -23,7 +23,7 @@
 
 .progressBar{
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 .barBackground,
 .barForeground{
@@ -33,11 +33,10 @@
 
 .barBackground{
     width: 100%;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(194, 194, 194);
 }
 .barForeground{
     background-color: #12BECC;
-    position: absolute;
-    top: 0;
+    position: relative;
     width: 85%;
 }

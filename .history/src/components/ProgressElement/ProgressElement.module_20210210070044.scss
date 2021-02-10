@@ -23,21 +23,10 @@
 
 .progressBar{
     width: 100%;
-    position: relative;
 }
-.barBackground,
-.barForeground{
-    height: 18px;
-    border-radius: 10px;
-}
-
 .barBackground{
+    height: 10px;
     width: 100%;
-    background-color: rgb(212, 212, 212);
-}
-.barForeground{
-    background-color: #12BECC;
-    position: absolute;
-    top: 0;
-    width: 85%;
+    border-radius: 50%;
+    background-color: gray;
 }
