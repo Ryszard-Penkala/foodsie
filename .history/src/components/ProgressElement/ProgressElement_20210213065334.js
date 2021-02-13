@@ -6,10 +6,10 @@ const ProgressElement = ({type, progress}) => {
         Water : 'fa-tint',
         Calories : 'fa-carrot'
     }
-    const widthProportion = progress+'%'
-    const progressBarStyle = () => ({
-        width: widthProportion
-    })
+
+    const progressBarStyle = ({progress}) => {
+
+    }
 
     return (
         <div className={styles.progressElement}>
@@ -22,7 +22,7 @@ const ProgressElement = ({type, progress}) => {
             </div>
             <div className= { styles.progressBar }>
                 <div className={ styles.barBackground }></div>
-                <div style={ progressBarStyle() } className={ styles.barForeground }></div>
+                <div style={width:`50%`} className={ styles.barForeground }></div>
 
             </div>
         </div>

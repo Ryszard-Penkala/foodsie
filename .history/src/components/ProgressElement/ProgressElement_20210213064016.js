@@ -6,10 +6,6 @@ const ProgressElement = ({type, progress}) => {
         Water : 'fa-tint',
         Calories : 'fa-carrot'
     }
-    const widthProportion = progress+'%'
-    const progressBarStyle = () => ({
-        width: widthProportion
-    })
 
     return (
         <div className={styles.progressElement}>
@@ -18,11 +14,11 @@ const ProgressElement = ({type, progress}) => {
                     <i className={['fas', typeElement[type] ,'fa-2x', styles.elementColor].join(' ')}></i>
                     <p className={ styles.iconText }>Sleep</p>
                 </div>
-                <p className={[styles.elementColor, styles.iconProgress].join(' ')}>{progress + '%'}</p>
+                <p className={[styles.elementColor, styles.iconProgress].join(' ')}>{progres&}</p>
             </div>
             <div className= { styles.progressBar }>
                 <div className={ styles.barBackground }></div>
-                <div style={ progressBarStyle() } className={ styles.barForeground }></div>
+                <div className={ styles.barForeground }></div>
 
             </div>
         </div>

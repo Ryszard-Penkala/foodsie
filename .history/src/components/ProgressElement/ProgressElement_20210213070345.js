@@ -22,7 +22,7 @@ const ProgressElement = ({type, progress}) => {
             </div>
             <div className= { styles.progressBar }>
                 <div className={ styles.barBackground }></div>
-                <div style={ progressBarStyle() } className={ styles.barForeground }></div>
+                <div style={ progressBarStyle } className={ styles.barForeground }></div>
 
             </div>
         </div>
