@@ -4,7 +4,6 @@ const ProgressElement = ({type}) => {
     const typeElement = {
         Sleep : 'fa-bed',
         Water : 'fa-tint',
-        Calories : 'fa-carrot'
 
     }
 

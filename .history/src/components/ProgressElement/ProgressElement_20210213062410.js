@@ -1,10 +1,8 @@
 import styles from './ProgressElement.module.scss'
 
-const ProgressElement = ({type}) => {
+const ProgressElement = (type) => {
     const typeElement = {
         Sleep : 'fa-bed',
-        Water : 'fa-tint',
-        Calories : 'fa-carrot'
 
     }
 
@@ -12,6 +10,7 @@ const ProgressElement = ({type}) => {
         <div className={styles.progressElement}>
             <div className={ styles.progressHeader }>
                 <div className={ styles.icon }>
+                    {console.log(typeElement[type])}
                     <i className={['fas', typeElement[type] ,'fa-2x', styles.elementColor].join(' ')}></i>
                     <p className={ styles.iconText }>Sleep</p>
                 </div>

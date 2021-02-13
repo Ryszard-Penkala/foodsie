@@ -7,7 +7,7 @@ const ProgressWrapper = () => {
             <p className={styles.progressTitle}>Progress</p>
             <ProgressElement type = 'Sleep'/>
             <ProgressElement type = 'Water'/>
-            <ProgressElement type = 'Calories'/>
+            <ProgressElement type = 'Sleep'/>
         </div>
      );
 }
