@@ -13,18 +13,14 @@ const ProgressElement = ({type, elementColor , progress}) => {
         backgroundColor: elementColor,
     })
 
-    const elementColorStyle = () => ({
-        color: elementColor,
-    })
-
     return (
         <div className={styles.progressElement}>
             <div className={ styles.progressHeader }>
                 <div className={ styles.icon }>
-                    <i style={ elementColorStyle() } className={['fas', typeElement[type] ,'fa-2x'].join(' ')}></i>
+                    <i color={elementColor} className={['fas', typeElement[type] ,'fa-2x', styles.elementColor].join(' ')}></i>
                     <p className={ styles.iconText }>{type}</p>
                 </div>
-                <p style={ elementColorStyle() } className={ styles.iconProgress }>{progress + '%'}</p>
+                <p className={[styles.elementColor, styles.iconProgress].join(' ')}>{progress + '%'}</p>
             </div>
             <div className= { styles.progressBar }>
                 <div className={ styles.barBackground }></div>

@@ -21,10 +21,10 @@ const ProgressElement = ({type, elementColor , progress}) => {
         <div className={styles.progressElement}>
             <div className={ styles.progressHeader }>
                 <div className={ styles.icon }>
-                    <i style={ elementColorStyle() } className={['fas', typeElement[type] ,'fa-2x'].join(' ')}></i>
+                    <i className={['fas', typeElement[type] ,'fa-2x', styles.elementColor].join(' ')}></i>
                     <p className={ styles.iconText }>{type}</p>
                 </div>
-                <p style={ elementColorStyle() } className={ styles.iconProgress }>{progress + '%'}</p>
+                <p style={ elementColorStyle() } className={[styles.elementColor, styles.iconProgress].join(' ')}>{progress + '%'}</p>
             </div>
             <div className= { styles.progressBar }>
                 <div className={ styles.barBackground }></div>

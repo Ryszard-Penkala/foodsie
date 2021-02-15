@@ -16,6 +16,10 @@
     width: 100px;
 }
 
+.elementColor{
+    color: #12BECC;
+}
+
 .iconProgress{
     display: inline-block;
 }
@@ -35,6 +39,7 @@
     background-color: rgb(212, 212, 212);
 }
 .barForeground{
+    background-color: #12BECC;
     position: absolute;
     top: 0;
 }
