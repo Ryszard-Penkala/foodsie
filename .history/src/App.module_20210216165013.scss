@@ -4,7 +4,7 @@
   height: 100vh;
   .mainPart{
     width: 60vw;
-    margin: 0 20px;
+    // margin: 0 20px;
     .headerHeader{
       align-items: flex-start;
     }
@@ -19,7 +19,7 @@
     padding: 0;
     width: 37.5vw;
     display: flex;
-    justify-content: center;
+    background-color: red;
   }
 }
 

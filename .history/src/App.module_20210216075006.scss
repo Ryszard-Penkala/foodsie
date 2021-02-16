@@ -17,21 +17,20 @@
   .sidePanel{
     margin: 0;
     padding: 0;
-    width: 37.5vw;
+    max-width: 37.5vw;
     display: flex;
-    justify-content: center;
   }
 }
 
 // .App :nth-child(1){
 //   order: 3;
 // }
-// .App :nth-child(2){
-//   order: 2;
-// }
-// .App :nth-child(3){
-//   order: 1;
-// }
+.App :nth-child(2){
+  order: 2;
+}
+.App :nth-child(3){
+  order: 1;
+}
 
 
 
