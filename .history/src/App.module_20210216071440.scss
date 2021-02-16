@@ -14,11 +14,11 @@
     background: linear-gradient(0deg, rgba(9,217,118,1) 0%, rgba(18,190,204,1) 100%);
   }
   .sidePanel{
-    margin: 0;
-    padding: 0;
-    max-width: 37.5vw;
-    display: flex;
-    
+    width: 37.5vw;
+    background-color: lightblue;
+  }
+  :nth-child(3){
+    order: 1;
   }
 }
 

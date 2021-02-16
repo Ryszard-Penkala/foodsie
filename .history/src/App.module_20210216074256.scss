@@ -2,7 +2,7 @@
   margin: 0 0 0 10px;
   display: flex;
   .mainPart{
-    width: 60vw;
+    max-width: 60vw;
     margin: 0 20px;
     .headerHeader{
       align-items: flex-start;
@@ -18,7 +18,7 @@
     padding: 0;
     max-width: 37.5vw;
     display: flex;
-    
+    padding: 0 1em 2em 0;
   }
 }
 

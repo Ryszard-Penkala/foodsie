@@ -2,7 +2,7 @@
   margin: 0 0 0 10px;
   display: flex;
   .mainPart{
-    width: 60vw;
+    max-width: 60vw;
     margin: 0 20px;
     .headerHeader{
       align-items: flex-start;
@@ -16,9 +16,8 @@
   .sidePanel{
     margin: 0;
     padding: 0;
-    max-width: 37.5vw;
-    display: flex;
-    
+    background-color: blue;
+    width: 32.5vw;
   }
 }
 
