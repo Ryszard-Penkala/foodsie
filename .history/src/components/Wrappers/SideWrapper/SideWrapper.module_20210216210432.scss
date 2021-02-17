@@ -5,4 +5,13 @@
     padding: 0 1em 2em 0;
     align-items: center;
 }
+.sideWrapper:nth-child(1){
+    order: 1;
+}
+.sideWrapper:nth-child(2){
+    order: 3;
+}
+.sideWrapper:nth-child(3){
+    order: 2;
+}
 

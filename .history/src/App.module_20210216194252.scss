@@ -25,12 +25,7 @@
 
 @media screen and (max-width: 1076px){
   .App{
-    flex-direction: column-reverse;
-    height: auto;
-    .sidePanel{
-      width: 100%;
-      margin: 50px 0 0 0 ;
-    }
+    flex-direction: column;
   }
 }
 

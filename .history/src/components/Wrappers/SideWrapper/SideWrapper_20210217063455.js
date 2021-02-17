@@ -6,19 +6,12 @@ import styles from './SideWrapper.module.scss';
 
 
 const SideWrapper = () => {
-    const [first, second, third] = window.screen.width > 1076
-        ? [<User/>,
-        <MotivationWrapper motivation = '90' />,
-        <ProgressWrapper/>]
-        : [<User/>,
-            <ProgressWrapper/>,
-            <MotivationWrapper motivation = '90' />]
-
     return(
+        {console.log(screen.width)}
         <div className={styles.sideWrapper}>
-            {first}
-            {second}
-            {third}
+            <User/>
+            <MotivationWrapper motivation = '90' />
+            <ProgressWrapper/>
         </div>
 
     );

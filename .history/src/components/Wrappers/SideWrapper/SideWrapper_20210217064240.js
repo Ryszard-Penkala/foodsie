@@ -10,7 +10,7 @@ const SideWrapper = () => {
         ? [<User/>,
         <MotivationWrapper motivation = '90' />,
         <ProgressWrapper/>]
-        : [<User/>,
+        : [[<User/>,
             <ProgressWrapper/>,
             <MotivationWrapper motivation = '90' />]
 
