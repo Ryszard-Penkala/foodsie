@@ -1,7 +1,7 @@
 .App{
   margin: 0 0 0 10px;
   display: flex;
-  height: auto;
+  height: 100vh;
   .mainPart{
     width: 60vw;
     margin: 0 20px;
@@ -11,7 +11,6 @@
   }
   .gradientPanel{
     width: 2.5vw;
-    height: auto;
     background: rgb(18,190,204);
     background: linear-gradient(0deg, rgba(9,217,118,1) 0%, rgba(18,190,204,1) 100%);
   }
@@ -34,6 +33,7 @@
     .mainPart{
       width: 100%;
       align-items: center;
+      background-color: cornflowerblue;
       margin: 0;
       .headerHeader{
         display: none;
@@ -48,7 +48,7 @@
       width: 100vw;
       background: rgb(18,190,204);
       background: linear-gradient(90deg, rgba(9,217,118,1) 0%, rgba(18,190,204,1) 100%);
-      margin: 20px 0 50px 0;
+      margin: 0 0 50px 0;
     }
   }
 }

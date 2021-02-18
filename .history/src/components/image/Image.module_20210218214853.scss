@@ -16,9 +16,10 @@
 
 @media screen and (max-width:450px){
     .articleImage{
-        display: block;
-        margin: auto;
-        width: 300px;
-        height: 350px;
+        .articleImage{
+            display: block;
+            margin: auto;
+            width: 300px;
+        }
     }
 }

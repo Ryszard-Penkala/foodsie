@@ -14,11 +14,10 @@
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:400px){
     .articleImage{
-        display: block;
-        margin: auto;
-        width: 300px;
-        height: 350px;
+        .articleImage{
+            width: 300px;
+        }
     }
 }
