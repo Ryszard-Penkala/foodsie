@@ -1,0 +1,56 @@
+.App{
+  margin: 0 0 0 10px;
+  display: flex;
+  height: 100vh;
+  .mainPart{
+    width: 60vw;
+    margin: 0 20px;
+    .headerHeader{
+      align-items: flex-start;
+    }
+  }
+  .gradientPanel{
+    width: 2.5vw;
+    background: rgb(18,190,204);
+    background: linear-gradient(0deg, rgba(9,217,118,1) 0%, rgba(18,190,204,1) 100%);
+  }
+  .sidePanel{
+    margin: 0;
+    padding: 0;
+    width: 37.5vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1076px){
+  .App{
+    flex-direction: column-reverse;
+    height: auto;
+    margin:auto;
+    padding: 0;
+    width: 100vw;
+    .mainPart{
+      width: 100%;
+      margin: 0;
+      .headerHeader{
+        display: none;
+      }
+    }
+    .sidePanel{
+      width: 100%;
+      margin: 50px 0 0 0 ;
+    }
+    .gradientPanel{
+      height: 2.5vh;
+      width: 100vw;
+      background: rgb(18,190,204);
+      background: linear-gradient(90deg, rgba(9,217,118,1) 0%, rgba(18,190,204,1) 100%);
+      margin: 0 0 50px 0;
+    }
+  }
+}
+
+
+
+
