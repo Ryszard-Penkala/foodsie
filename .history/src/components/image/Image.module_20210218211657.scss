@@ -10,6 +10,7 @@
     .articleImage{
         width: 90%;
         position: absolute;
-        margin: auto;
+        left: 50%;
+        transform: translateX(-20vw);
     }
 }

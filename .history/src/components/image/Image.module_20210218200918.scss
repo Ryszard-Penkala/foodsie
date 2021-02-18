@@ -9,7 +9,9 @@
 @media screen and (max-width: 1076px){
     .articleImage{
         width: 90%;
-        position: absolute;
-        margin: auto;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+        justify-content: center;
     }
 }

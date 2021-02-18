@@ -27,12 +27,12 @@
   .App{
     flex-direction: column-reverse;
     height: auto;
-    margin:0;
+    margin:auto;
     padding: 0;
     width: 100vw;
     .mainPart{
       width: 100%;
-      align-items: center;
+      margin: 0;
       background-color: cornflowerblue;
       .headerHeader{
         display: none;
