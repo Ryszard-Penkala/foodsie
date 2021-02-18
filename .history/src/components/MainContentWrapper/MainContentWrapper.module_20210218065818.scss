@@ -1,5 +1,6 @@
 .wrapper{
     width: 60vw;
+    display: flex;
 }
 .navWrapper{
     width: 400px;
@@ -35,8 +36,5 @@
     .wrapper{
         width: 90%;
         margin: 0 20px;
-    }
-    .navWrapper{
-        width: 100%
     }
 }
