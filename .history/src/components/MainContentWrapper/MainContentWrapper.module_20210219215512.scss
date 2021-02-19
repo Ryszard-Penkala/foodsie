@@ -31,24 +31,22 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1500px){
+    .navWrapper{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 1076px){
     .wrapper{
-        width: 90%;
+        width: 50%;
         margin: 0 20px;
     }
     .navWrapper{
-        width: 400px;
-        margin: auto;
+        width: 100%;
         flex-wrap: wrap;
     }
     .radioButtonLabel{
         margin: 0 20px 20px 0;
-    }
-}
-
-@media screen and (max-width: 450px){
-    .navWrapper{
-        width: 90%;
-        flex-wrap: wrap;
     }
 }

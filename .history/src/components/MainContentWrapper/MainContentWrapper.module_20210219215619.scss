@@ -31,6 +31,12 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1500px){
+    .navWrapper{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 1076px){
     .wrapper{
         width: 90%;
@@ -38,17 +44,12 @@
     }
     .navWrapper{
         width: 400px;
-        margin: auto;
+        align-self: center;
+        justify-self: center;
+        align-content: center;
         flex-wrap: wrap;
     }
     .radioButtonLabel{
         margin: 0 20px 20px 0;
-    }
-}
-
-@media screen and (max-width: 450px){
-    .navWrapper{
-        width: 90%;
-        flex-wrap: wrap;
     }
 }
