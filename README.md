@@ -1,5 +1,5 @@
 You can visit site [here](https://foodsierp.netlify.app/) .\
-This is the first version of site (healthy lifestyle site) created with React. New functionalities will be added in the future.\
+This is the first version of healthy lifestyle site created with React. New functionalities will be added in the future.
 
 ## Getting Started with Create React App
 
