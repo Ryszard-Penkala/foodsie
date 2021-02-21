@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
+You can visit site [here](https://foodsierp.netlify.app/) .\
+This is the first version of site (healthy lifestyle site). New functionalities will be added in the future.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You can visit site [here](https://foodsierp.netlify.app/) .
+
 
 ## Available Scripts
 
