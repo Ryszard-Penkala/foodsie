@@ -17,7 +17,10 @@ const ProgressWrapper = () => {
 
     return (
         <div className={styles.progressWrapper}>
-            <p className={styles.progressTitle}>Progress</p>
+            <div className={styles.progressSection}>
+                <p className={styles.progressTitle}>Progress</p>
+                <div className={styles.addSign}></div>
+            </div>
             <ProgressElement type={progressType.Sleep} elementColor={color.Sleep} progress = '85'/>
             <ProgressElement type={progressType.Water} elementColor={color.Water} progress = '50'/>
             <ProgressElement type={progressType.Calories} elementColor={color.Calories} progress = '65'/>
