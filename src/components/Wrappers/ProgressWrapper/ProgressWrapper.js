@@ -19,7 +19,7 @@ const ProgressWrapper = () => {
         <div className={styles.progressWrapper}>
             <div className={styles.progressSection}>
                 <p className={styles.progressTitle}>Progress</p>
-                <div className={styles.addSign}></div>
+                <button className={styles.addSign}></button>
             </div>
             <ProgressElement type={progressType.Sleep} elementColor={color.Sleep} progress = '85'/>
             <ProgressElement type={progressType.Water} elementColor={color.Water} progress = '50'/>
